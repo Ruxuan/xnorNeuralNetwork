@@ -17,8 +17,8 @@ $ octave --no-gui
 >> xnor
 ```
 ## Recommendations
-- In `xnorDataGenerator.c` try modifying the number of examples generated to see how different data sizes affects the results
-- In `xnor.m` try modifying:
-	* hidden\_layer\_size (Units in first hidden layer
-	* hidden\_layer\_2\_size (Units in second hidden layer
+- In `xnorDataGenerator.c` try modifying the number of examples generated to see how different data sizes affects the results and accuracy
+- In `xnor.m` try modifying the following to see how they affect the results
+	* hidden\_layer\_size (Units in first hidden layer)
+	* hidden\_layer\_2\_size (Units in second hidden layer)
 	* MaxIter option
